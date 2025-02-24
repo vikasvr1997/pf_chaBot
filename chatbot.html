@@ -1,0 +1,20 @@
+
+<div id="chatbot" class="chatbot">
+  <button id="chatbot-toggle">
+    <img src="img/Hulk_bot.jpg" alt="Chatbot Icon" class="chatbot-icon">
+  </button>
+  <div class="chat-window" id="chat-window">
+    <div class="chat-header">Hulk Bot 💬</div>
+    <div class="chat-body" id="chat-body">
+      <div class="chat-message bot">Hulk Smash! Need help? Check out my projects and skills!</div>
+    </div>
+    <div class="chat-quick-actions">
+      <button onclick="navigateToSection('portfolio')">Take to Projects</button>
+      <button onclick="navigateToSection('certifications')">Show Certifications</button>
+      <button onclick="navigateToSection('contact')">Take to Contact Page</button>
+      <button onclick="navigateToSection('about')">Take to Career Outline/Timeline</button>
+    </div>
+    <input type="text" id="user-input" placeholder="Ask me anything...">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
